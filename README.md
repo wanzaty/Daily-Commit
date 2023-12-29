@@ -1,9 +1,13 @@
+<img src="https://source.unsplash.com/2E_dT65fyxo" alt="" width="100%" >
+
 # Daily-Commit
 GitHub Commit Auto Green Workflow Action
 
 One day, I was looking at my GitHub profile and seethe contribution metrics and wondering
 
-"damn, I want a contribution with full labels for the entire year!"
+"dammmmmn, I want a contribution with full labels for the entire year!"
+
+ok it's because I see a funny website called [GitHub Worth](https://github-worth.vercel.app/), I think fully commit to GitHub by daily basis will significantly boost this fiction price.
 
 Then I start Google the solution, it turns out automating this commits progress use GitHub Action will be the most effective solution.
 
@@ -17,7 +21,7 @@ Change the email and username with your GitHub email and username 😄
 
 One more thing, make sure you provide the write permission for GitHub Action so it can commit properly.
 
->>> Setting > Action > General > Workflow Permissions
+> Setting > Action > General > Workflow Permissions
 
 If you like this repo, star it or buy me a coffee ☕
 
@@ -25,4 +29,4 @@ If you like this repo, star it or buy me a coffee ☕
 
 ---
 
-<p align=right>@[rNLKJA](https://github.com/rNLKJA)</p>
+<p align=right>@<a href="https://github.com/rNLKJA">rNLKJA</a></p>
