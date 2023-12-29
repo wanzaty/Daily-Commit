@@ -14,12 +14,13 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Make changes
-        run: echo "Daily update" >> log.txt
+        run: 
+          echo "Commit made at $(date '+%Y-%m-%d %H:%M:%S')" >> log.txt
 
       - name: Commit and push if changed
         run: |
           git config --global user.email "huangsunchuangyu@outlook.com"
           git config --global user.name "rNLKJA"
           git add -A
-          git commit -m "Daily update"
+          git commit -m "Daily update $(date '+%Y-%m-%d %H:%M:%S')"
           git push
