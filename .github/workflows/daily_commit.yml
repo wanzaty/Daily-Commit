@@ -15,7 +15,7 @@ jobs:
 
       - name: Make changes
         run: 
-          echo "Commit made at $(date '+%Y-%m-%d %H:%M:%S')" >> log.txt
+          echo "Commit 3 made at $(date '+%Y-%m-%d %H:%M:%S')" > log.txt
 
       - name: Commit and push if changed
         run: |
