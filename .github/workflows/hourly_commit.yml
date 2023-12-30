@@ -1,0 +1,26 @@
+name: Hourly Commit
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+  
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Make changes
+        run: 
+          echo "Commit made at $(date '+%Y-%m-%d %H:%M:%S')" >> log.txt
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.email "huangsunchuangyu@outlook.com"
+          git config --global user.name "rNLKJA"
+          git add -A
+          git commit -m "Daily update $(date '+%Y-%m-%d %H:%M:%S')"
+          git push
