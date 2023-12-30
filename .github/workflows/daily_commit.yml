@@ -19,6 +19,7 @@ jobs:
 
       - name: Commit and push if changed
         run: |
+          git pull
           git config --global user.email "huangsunchuangyu@outlook.com"
           git config --global user.name "rNLKJA"
           git add -A
